@@ -5,13 +5,13 @@ about:
   head: 2ac5b08
   archived: false
   latestVersion: "v12.2.3"
-  collectedAt: 2026-09-08T01:54:12Z
+  collectedAt: 2026-09-08T05:12:08Z
 timeline:
   created: 2010-02-16
   lastCommit: 2026-08-25
   lastRelease: 2026-05-12
 popularity:
-  star: 44949
+  star: 44950
   watcher: 630
   fork: 4721
   release: 81
@@ -88,7 +88,7 @@ total:
   commit: 11225
 ---
 path: /home/runner/.x-repo/github.com/mitmproxy/mitmproxy
-collectedAt: 2026-09-08T01:54:18Z
+collectedAt: 2026-09-08T05:12:17Z
 loc:
   Python:
     code: 74394
