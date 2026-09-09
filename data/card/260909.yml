@@ -7,7 +7,7 @@ about:
   latestVersion: "v12.2.3"
   latestRelease: "v12.2.3"
   latestPrerelease: "v3.0.0rc2"
-  collectedAt: 2026-09-09T05:03:35Z
+  collectedAt: 2026-09-09T18:51:39Z
 timeline:
   created: 2010-02-16
   lastCommit: 2026-08-25
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-05-12
   lastPrerelease: 2018-01-07
 popularity:
-  star: 44966
+  star: 44978
   watcher: 630
-  fork: 4721
+  fork: 4724
   release: 81
   contributor: 550
-  pullRequest: 3613
+  pullRequest: 3614
   issue: 3695
 language:
   Python: 2771125
@@ -39,7 +39,7 @@ recent:
     since: 2026-08-10
     release: 0
     mergedPR: 16
-    openPR: 34
+    openPR: 35
     closedIssue: 2
     openIssue: 3
     commit: 27
@@ -47,7 +47,7 @@ recent:
     since: 2026-07-11
     release: 0
     mergedPR: 34
-    openPR: 44
+    openPR: 45
     closedIssue: 9
     openIssue: 7
     commit: 60
@@ -55,7 +55,7 @@ recent:
     since: 2026-06-11
     release: 0
     mergedPR: 49
-    openPR: 48
+    openPR: 49
     closedIssue: 13
     openIssue: 11
     commit: 81
@@ -63,7 +63,7 @@ recent:
     since: 2026-03-13
     release: 2
     mergedPR: 107
-    openPR: 68
+    openPR: 69
     closedIssue: 29
     openIssue: 23
     commit: 175
@@ -71,7 +71,7 @@ recent:
     since: 2025-09-14
     release: 4
     mergedPR: 191
-    openPR: 86
+    openPR: 87
     closedIssue: 72
     openIssue: 49
     commit: 329
@@ -79,20 +79,20 @@ recent:
     since: 2024-09-19
     release: 15
     mergedPR: 449
-    openPR: 94
+    openPR: 95
     closedIssue: 219
     openIssue: 118
     commit: 508
 total:
   release: 81
   mergedPR: 2848
-  openPR: 112
+  openPR: 113
   closedIssue: 3324
   openIssue: 371
   commit: 11225
 ---
 path: /home/runner/.x-repo/github.com/mitmproxy/mitmproxy
-collectedAt: 2026-09-09T05:03:41Z
+collectedAt: 2026-09-09T18:51:46Z
 loc:
   Python:
     code: 74394
