@@ -12,33 +12,6 @@ An interactive TLS-capable intercepting HTTP proxy for penetration testers and s
 x install mitmproxy
 ```
 
-## 源代码
-
-- **上游仓库**: <https://github.com/mitmproxy/mitmproxy>
-- **官网**: <https://mitmproxy.org>
-- **许可证**: MIT
-
-## 发布
-
-- **最新版本**: `v12.2.3` (2026-05-12)
-- **最近提交**: 2026-09-10
-
-## 流行度
-
-- **Star**: 44,991 · **Fork**: 4,727 · **开放 issue**: 3,695 · **贡献者**: 551
-
-## 累计统计
-
-- **发布数**: 81 · **已合并 PR**: 2849 · **开放 PR**: 115 · **已关闭 issue**: 3325 · **开放 issue**: 370 · **提交数**: 11226
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 17 | 35 | 3 | 2 | 28 |
-| 90d | 2026-06-12 | 0 | 50 | 51 | 14 | 10 | 82 |
-| 360d | 2025-09-15 | 4 | 192 | 89 | 72 | 48 | 330 |
-
 ## 代码规模
 
 合计: **122,898** 行代码（覆盖前 5 种语言、共 **829** 个文件）。
@@ -61,6 +34,52 @@ x install mitmproxy
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
+## 源代码
+
+- **上游仓库**: <https://github.com/mitmproxy/mitmproxy>
+- **官网**: <https://mitmproxy.org>
+- **许可证**: MIT
+
+## 发布
+
+- **最新版本**: `v12.2.3` (2026-05-12)
+- **最近提交**: 2026-09-10
+
+## 流行度
+
+- **Star**: 44,994 · **Fork**: 4,727 · **开放 issue**: 3,696 · **贡献者**: 551
+
+## 累计统计
+
+- **发布数**: 81 · **已合并 PR**: 2849 · **开放 PR**: 115 · **已关闭 issue**: 3325 · **开放 issue**: 371 · **提交数**: 11226
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 17 | 35 | 3 | 3 | 28 |
+| last60d | 2026-07-12 | 0 | 34 | 47 | 10 | 7 | 61 |
+| 90d | 2026-06-12 | 0 | 50 | 51 | 14 | 11 | 82 |
+| last180d | 2026-03-14 | 2 | 108 | 71 | 30 | 23 | 176 |
+| 360d | 2025-09-15 | 4 | 192 | 89 | 72 | 49 | 330 |
+| last720d | 2024-09-20 | 15 | 448 | 97 | 219 | 118 | 506 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/mitmproxy) 上共有 **95** 个发行版报告此项目。**24** 个 ✅ 已是最新上游版本，**68** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `8.1.1` | ⚠️ outdated |
+| Debian 14 | `8.1.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `8.1.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `8.1.1` | ⚠️ outdated |
+| Arch | `12.2.3` | ✅ latest |
+| Nix unstable | `12.2.3` | ✅ latest |
+| Void | `11.1.3` | ⚠️ outdated |
+| Alpine edge | `11.0.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `12.2.3` | ✅ latest |
+
 ## 改进这些数据
 
 mitmproxy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `mitmproxy` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -70,4 +89,4 @@ mitmproxy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:37:15Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:40:53Z._
