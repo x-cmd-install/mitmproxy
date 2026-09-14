@@ -43,11 +43,11 @@
   "body": "Changes: See [CHANGELOG.md](https://github.com/mitmproxy/mitmproxy/blob/main/CHANGELOG.md).\n\nYou can find the latest release packages at https://mitmproxy.org/downloads/.\n",
   "reactions": {
     "url": "https://api.github.com/repos/mitmproxy/mitmproxy/releases/321150479/reactions",
-    "total_count": 8,
+    "total_count": 9,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 3,
+    "hooray": 4,
     "confused": 0,
     "heart": 5,
     "rocket": 0,
