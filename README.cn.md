@@ -4,7 +4,7 @@
 
 An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 
-![mitmproxy](https://repo.x-cmd.io/mitmproxy.svg?lang=zh)
+[![x-cmd/install — mitmproxy Code Quality Monitoring Repo Card](https://repo.x-cmd.io/mitmproxy.svg?lang=zh)](https://x-cmd.com/install/mitmproxy)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install mitmproxy
 
 ## 流行度
 
-- **Star**: 45,079 · **Fork**: 4,730 · **开放 issue**: 3,697 · **贡献者**: 551
+- **Star**: 45,096 · **Fork**: 4,736 · **开放 issue**: 3,697 · **贡献者**: 551
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install mitmproxy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 16 | 28 | 3 | 4 | 18 |
-| last60d | 2026-07-20 | 0 | 33 | 48 | 7 | 7 | 53 |
-| 90d | 2026-06-20 | 0 | 49 | 53 | 14 | 10 | 81 |
-| last180d | 2026-03-22 | 2 | 107 | 74 | 29 | 22 | 174 |
-| 360d | 2025-09-23 | 4 | 192 | 93 | 70 | 50 | 330 |
-| last720d | 2024-09-28 | 15 | 445 | 101 | 218 | 118 | 501 |
+| 30d | 2026-08-21 | 0 | 2 | 25 | 3 | 4 | 1 |
+| last60d | 2026-07-22 | 0 | 32 | 48 | 6 | 7 | 53 |
+| 90d | 2026-06-22 | 0 | 48 | 53 | 14 | 10 | 79 |
+| last180d | 2026-03-24 | 2 | 105 | 74 | 29 | 22 | 172 |
+| 360d | 2025-09-25 | 4 | 192 | 93 | 70 | 50 | 330 |
+| last720d | 2024-09-30 | 15 | 445 | 101 | 217 | 117 | 501 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ mitmproxy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:13:39Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:16:19Z._
