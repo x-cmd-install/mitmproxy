@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (-1/10) — no releases found
 
 ## Source
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v12.2.3` (2026-05-12)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-30
 
 ## Popularity
 
-- **Stars**: 45,196 · **Forks**: 4,754 · **Open issues**: 3,699 · **Contributors**: 551
+- **Stars**: 45,209 · **Forks**: 4,758 · **Open issues**: 3,699 · **Contributors**: 551
 
 ## Totals (cumulative)
 
-- **Releases**: 81 · **Merged PRs**: 2855 · **Open PRs**: 123 · **Closed issues**: 3325 · **Open issues**: 374 · **Commits**: 11232
+- **Releases**: 81 · **Merged PRs**: 2856 · **Open PRs**: 125 · **Closed issues**: 3327 · **Open issues**: 372 · **Commits**: 11233
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 6 | 23 | 1 | 5 | 12 |
-| last60d | 2026-08-01 | 0 | 23 | 49 | 5 | 8 | 42 |
-| 90d | 2026-07-02 | 0 | 44 | 55 | 11 | 11 | 76 |
-| last180d | 2026-04-03 | 2 | 106 | 76 | 28 | 22 | 183 |
-| 360d | 2025-10-05 | 4 | 196 | 97 | 65 | 52 | 340 |
-| last720d | 2024-10-10 | 14 | 440 | 105 | 213 | 119 | 492 |
+| 30d | 2026-09-01 | 0 | 1 | 23 | 2 | 4 | 13 |
+| last60d | 2026-08-02 | 0 | 24 | 50 | 6 | 6 | 43 |
+| 90d | 2026-07-03 | 0 | 45 | 57 | 12 | 10 | 77 |
+| last180d | 2026-04-04 | 2 | 107 | 78 | 29 | 21 | 184 |
+| 360d | 2025-10-06 | 4 | 197 | 99 | 66 | 50 | 341 |
+| last720d | 2024-10-11 | 14 | 441 | 107 | 215 | 116 | 492 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:58:13Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:05:34Z._
