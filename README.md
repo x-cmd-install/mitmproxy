@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 45,401 · **Forks**: 4,775 · **Open issues**: 3,701 · **Contributors**: 556
+- **Stars**: 45,429 · **Forks**: 4,777 · **Open issues**: 3,701 · **Contributors**: 556
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 15 | 14 | 4 | 1 | 40 |
-| last60d | 2026-08-12 | 0 | 37 | 40 | 7 | 4 | 68 |
-| 90d | 2026-07-13 | 0 | 56 | 53 | 14 | 7 | 93 |
-| last180d | 2026-04-14 | 1 | 112 | 74 | 32 | 19 | 174 |
-| 360d | 2025-10-16 | 3 | 204 | 97 | 64 | 44 | 357 |
-| last720d | 2024-10-21 | 14 | 450 | 105 | 215 | 112 | 501 |
+| 30d | 2026-09-12 | 0 | 15 | 13 | 3 | 1 | 40 |
+| last60d | 2026-08-13 | 0 | 37 | 38 | 7 | 4 | 68 |
+| 90d | 2026-07-14 | 0 | 56 | 53 | 14 | 7 | 93 |
+| last180d | 2026-04-15 | 1 | 112 | 74 | 32 | 19 | 174 |
+| 360d | 2025-10-17 | 3 | 204 | 97 | 64 | 44 | 357 |
+| last720d | 2024-10-22 | 14 | 450 | 105 | 214 | 112 | 501 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:01:00Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:15:25Z._
