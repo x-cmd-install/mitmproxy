@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/mitmproxy/mitmproxy/tarball/v12.3.0",
   "zipball_url": "https://api.github.com/repos/mitmproxy/mitmproxy/zipball/v12.3.0",
-  "body": "Changes: See [CHANGELOG.md](https://github.com/mitmproxy/mitmproxy/blob/main/CHANGELOG.md).\n\nYou can find the latest release packages at https://mitmproxy.org/downloads/.\n"
+  "body": "Changes: See [CHANGELOG.md](https://github.com/mitmproxy/mitmproxy/blob/main/CHANGELOG.md).\n\nYou can find the latest release packages at https://mitmproxy.org/downloads/.\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/mitmproxy/mitmproxy/releases/420242711/reactions",
+    "total_count": 15,
+    "+1": 7,
+    "-1": 0,
+    "laugh": 4,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 2,
+    "rocket": 2,
+    "eyes": 0
+  }
 }
