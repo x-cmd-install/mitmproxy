@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 46,352 · **Forks**: 4,888 · **Open issues**: 3,704 · **Contributors**: 565
+- **Stars**: 46,399 · **Forks**: 4,893 · **Open issues**: 3,704 · **Contributors**: 565
 
 ## Totals (cumulative)
 
-- **Releases**: 83 · **Merged PRs**: 2890 · **Open PRs**: 148 · **Closed issues**: 3334 · **Open issues**: 370 · **Commits**: 11272
+- **Releases**: 83 · **Merged PRs**: 2890 · **Open PRs**: 149 · **Closed issues**: 3335 · **Open issues**: 369 · **Commits**: 11272
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 2 | 31 | 36 | 5 | 2 | 60 |
-| last60d | 2026-08-27 | 2 | 40 | 52 | 8 | 6 | 75 |
-| 90d | 2026-07-28 | 2 | 73 | 77 | 12 | 9 | 121 |
-| last180d | 2026-04-29 | 3 | 128 | 97 | 32 | 17 | 205 |
-| 360d | 2025-10-31 | 5 | 217 | 122 | 62 | 43 | 364 |
-| last720d | 2024-11-05 | 16 | 455 | 130 | 212 | 109 | 511 |
+| 30d | 2026-09-27 | 2 | 31 | 37 | 6 | 1 | 60 |
+| last60d | 2026-08-28 | 2 | 40 | 53 | 9 | 5 | 75 |
+| 90d | 2026-07-29 | 2 | 70 | 77 | 13 | 7 | 121 |
+| last180d | 2026-04-30 | 3 | 128 | 98 | 32 | 16 | 205 |
+| 360d | 2025-11-01 | 5 | 216 | 123 | 63 | 42 | 364 |
+| last720d | 2024-11-06 | 16 | 455 | 131 | 213 | 106 | 511 |
 
 ## Distribution status
 
-Reported by **95** distros on [repology.org](https://repology.org/project/mitmproxy). **3** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/mitmproxy). **8** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,7 +74,7 @@ Reported by **95** distros on [repology.org](https://repology.org/project/mitmpr
 | Debian 14 | `8.1.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.1.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.1.1` | ⚠️ outdated |
-| Arch | `12.3.0` | ⚠️ outdated |
+| Arch | `12.3.1` | ✅ latest |
 | Nix unstable | `12.2.3` | ⚠️ outdated |
 | Void | `11.1.3` | ⚠️ outdated |
 | Alpine edge | `11.0.0` | ⚠️ outdated |
@@ -89,4 +89,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:58:25Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:16:56Z._
