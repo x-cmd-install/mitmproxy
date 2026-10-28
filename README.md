@@ -14,11 +14,11 @@ x install mitmproxy
 
 ## Code insight
 
-Total: **121,974** lines of code across **833** files in the top 5 languages.
+Total: **121,982** lines of code across **833** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 74,803 | 2,403 | 13,150 | 589 |
+| Python | 74,811 | 2,404 | 13,151 | 589 |
 | Json | 19,654 | 0 | 2 | 16 |
 | Tsx | 11,548 | 279 | 1,379 | 147 |
 | JavaScript | 4,792 | 78 | 110 | 16 |
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v12.3.1` (2026-10-25)
-- **Last commit**: 2026-10-25
+- **Last commit**: 2026-10-27
 
 ## Popularity
 
-- **Stars**: 46,399 · **Forks**: 4,893 · **Open issues**: 3,704 · **Contributors**: 565
+- **Stars**: 46,432 · **Forks**: 4,897 · **Open issues**: 3,705 · **Contributors**: 566
 
 ## Totals (cumulative)
 
-- **Releases**: 83 · **Merged PRs**: 2890 · **Open PRs**: 149 · **Closed issues**: 3335 · **Open issues**: 369 · **Commits**: 11272
+- **Releases**: 83 · **Merged PRs**: 2892 · **Open PRs**: 149 · **Closed issues**: 3336 · **Open issues**: 369 · **Commits**: 11274
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 2 | 31 | 37 | 6 | 1 | 60 |
-| last60d | 2026-08-28 | 2 | 40 | 53 | 9 | 5 | 75 |
-| 90d | 2026-07-29 | 2 | 70 | 77 | 13 | 7 | 121 |
-| last180d | 2026-04-30 | 3 | 128 | 98 | 32 | 16 | 205 |
-| 360d | 2025-11-01 | 5 | 216 | 123 | 63 | 42 | 364 |
-| last720d | 2024-11-06 | 16 | 455 | 131 | 213 | 106 | 511 |
+| 30d | 2026-09-28 | 2 | 32 | 36 | 6 | 2 | 63 |
+| last60d | 2026-08-29 | 2 | 41 | 52 | 9 | 6 | 78 |
+| 90d | 2026-07-30 | 2 | 72 | 76 | 13 | 8 | 124 |
+| last180d | 2026-05-01 | 3 | 129 | 96 | 32 | 17 | 208 |
+| 360d | 2025-11-02 | 5 | 208 | 122 | 63 | 43 | 367 |
+| last720d | 2024-11-07 | 16 | 457 | 131 | 214 | 106 | 513 |
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/mitmproxy). **8** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/mitmproxy). **10** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,7 +75,7 @@ Reported by **97** distros on [repology.org](https://repology.org/project/mitmpr
 | Ubuntu 26.04 LTS | `8.1.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.1.1` | ⚠️ outdated |
 | Arch | `12.3.1` | ✅ latest |
-| Nix unstable | `12.2.3` | ⚠️ outdated |
+| Nix unstable | `12.3.0` | ⚠️ outdated |
 | Void | `11.1.3` | ⚠️ outdated |
 | Alpine edge | `11.0.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `12.2.3` | ⚠️ outdated |
@@ -89,4 +89,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:16:56Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:52:54Z._
