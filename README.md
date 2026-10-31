@@ -14,11 +14,11 @@ x install mitmproxy
 
 ## Code insight
 
-Total: **121,982** lines of code across **833** files in the top 5 languages.
+Total: **121,993** lines of code across **833** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 74,811 | 2,404 | 13,151 | 589 |
+| Python | 74,822 | 2,404 | 13,154 | 589 |
 | Json | 19,654 | 0 | 2 | 16 |
 | Tsx | 11,548 | 279 | 1,379 | 147 |
 | JavaScript | 4,792 | 78 | 110 | 16 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v12.3.1` (2026-10-25)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-30
 
 ## Popularity
 
-- **Stars**: 46,480 · **Forks**: 4,908 · **Open issues**: 3,705 · **Contributors**: 566
+- **Stars**: 46,507 · **Forks**: 4,912 · **Open issues**: 3,705 · **Contributors**: 567
 
 ## Totals (cumulative)
 
-- **Releases**: 83 · **Merged PRs**: 2892 · **Open PRs**: 154 · **Closed issues**: 3336 · **Open issues**: 369 · **Commits**: 11274
+- **Releases**: 83 · **Merged PRs**: 2894 · **Open PRs**: 153 · **Closed issues**: 3336 · **Open issues**: 369 · **Commits**: 11276
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 31 | 40 | 6 | 2 | 63 |
-| last60d | 2026-08-31 | 2 | 41 | 57 | 9 | 5 | 78 |
-| 90d | 2026-08-01 | 2 | 60 | 81 | 13 | 8 | 124 |
-| last180d | 2026-05-03 | 3 | 124 | 101 | 31 | 17 | 208 |
-| 360d | 2025-11-04 | 5 | 207 | 127 | 62 | 43 | 367 |
-| last720d | 2024-11-09 | 16 | 456 | 136 | 214 | 106 | 513 |
+| 30d | 2026-10-01 | 2 | 26 | 38 | 6 | 2 | 66 |
+| last60d | 2026-09-01 | 2 | 37 | 54 | 9 | 5 | 81 |
+| 90d | 2026-08-02 | 2 | 62 | 79 | 13 | 7 | 127 |
+| last180d | 2026-05-04 | 3 | 125 | 100 | 31 | 17 | 211 |
+| 360d | 2025-11-05 | 5 | 208 | 126 | 62 | 43 | 370 |
+| last720d | 2024-11-10 | 16 | 458 | 135 | 214 | 106 | 515 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:59:03Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:53:08Z._
