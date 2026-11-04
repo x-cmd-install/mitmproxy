@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v12.3.1` (2026-10-25)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-11-03
 
 ## Popularity
 
-- **Stars**: 46,584 · **Forks**: 4,925 · **Open issues**: 3,705 · **Contributors**: 567
+- **Stars**: 46,625 · **Forks**: 4,932 · **Open issues**: 3,705 · **Contributors**: 567
 
 ## Totals (cumulative)
 
-- **Releases**: 83 · **Merged PRs**: 2894 · **Open PRs**: 168 · **Closed issues**: 3336 · **Open issues**: 369 · **Commits**: 11276
+- **Releases**: 83 · **Merged PRs**: 2900 · **Open PRs**: 164 · **Closed issues**: 3336 · **Open issues**: 369 · **Commits**: 11282
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 2 | 22 | 53 | 5 | 2 | 40 |
-| last60d | 2026-09-04 | 2 | 37 | 68 | 8 | 5 | 81 |
-| 90d | 2026-08-05 | 2 | 60 | 94 | 12 | 7 | 109 |
-| last180d | 2026-05-07 | 3 | 125 | 115 | 31 | 17 | 204 |
-| 360d | 2025-11-08 | 5 | 207 | 140 | 62 | 43 | 353 |
-| last720d | 2024-11-13 | 16 | 455 | 150 | 212 | 106 | 515 |
+| 30d | 2026-10-05 | 2 | 27 | 49 | 5 | 2 | 41 |
+| last60d | 2026-09-05 | 2 | 43 | 64 | 8 | 5 | 82 |
+| 90d | 2026-08-06 | 2 | 66 | 90 | 12 | 7 | 110 |
+| last180d | 2026-05-08 | 3 | 131 | 111 | 31 | 16 | 205 |
+| 360d | 2025-11-09 | 5 | 210 | 136 | 60 | 43 | 354 |
+| last720d | 2024-11-14 | 16 | 461 | 146 | 211 | 106 | 521 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:09:13Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:36:38Z._
