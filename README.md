@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 46,690 · **Forks**: 4,939 · **Open issues**: 3,707 · **Contributors**: 567
+- **Stars**: 46,715 · **Forks**: 4,946 · **Open issues**: 3,707 · **Contributors**: 567
 
 ## Totals (cumulative)
 
-- **Releases**: 83 · **Merged PRs**: 2901 · **Open PRs**: 169 · **Closed issues**: 3335 · **Open issues**: 372 · **Commits**: 11283
+- **Releases**: 83 · **Merged PRs**: 2901 · **Open PRs**: 176 · **Closed issues**: 3335 · **Open issues**: 372 · **Commits**: 11283
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 2 | 28 | 53 | 4 | 5 | 42 |
-| last60d | 2026-09-08 | 2 | 44 | 68 | 8 | 7 | 83 |
-| 90d | 2026-08-09 | 2 | 67 | 95 | 12 | 10 | 111 |
-| last180d | 2026-05-11 | 3 | 129 | 114 | 31 | 19 | 206 |
-| 360d | 2025-11-12 | 5 | 210 | 141 | 60 | 45 | 355 |
-| last720d | 2024-11-17 | 16 | 461 | 151 | 208 | 108 | 521 |
+| 30d | 2026-10-09 | 2 | 28 | 59 | 4 | 5 | 39 |
+| last60d | 2026-09-09 | 2 | 44 | 72 | 8 | 7 | 82 |
+| 90d | 2026-08-10 | 2 | 67 | 101 | 11 | 9 | 110 |
+| last180d | 2026-05-12 | 3 | 124 | 120 | 31 | 19 | 191 |
+| 360d | 2025-11-13 | 5 | 209 | 148 | 60 | 45 | 348 |
+| last720d | 2024-11-18 | 16 | 455 | 157 | 208 | 108 | 520 |
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/mitmproxy). **14** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **98** distros on [repology.org](https://repology.org/project/mitmproxy). **14** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for mitmproxy lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:19:39Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:13:23Z._
