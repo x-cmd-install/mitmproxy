@@ -1,3 +1,36 @@
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: mitmproxy
+  binname: mitmproxy
+  visiblename: mitmproxy
+  version: 12.3.1
+  origversion: 12.3.1-1
+  status: newest
+  summary: SSL-capable man-in-the-middle HTTP proxy
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: mitmproxy
+  binname: mitmproxy
+  visiblename: mitmproxy
+  version: 12.3.1
+  origversion: 12.3.1-1
+  status: newest
+  summary: SSL-capable man-in-the-middle HTTP proxy
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: mitmproxy
+  binname: mitmproxy
+  visiblename: mitmproxy
+  version: 12.3.1
+  origversion: 12.3.1-1
+  status: newest
+  summary: SSL-capable man-in-the-middle HTTP proxy
+  licenses:
+    - MIT
 - repo: aosc
   srcname: app-network/mitmproxy
   binname: mitmproxy
@@ -10,17 +43,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - net
-- repo: arch
-  subrepo: extra
-  srcname: mitmproxy
-  binname: mitmproxy
-  visiblename: mitmproxy
-  version: 12.3.1
-  origversion: 12.3.1-1
-  status: newest
-  summary: SSL-capable man-in-the-middle HTTP proxy
-  licenses:
-    - MIT
 - repo: aur
   srcname: mitmproxy-git
   binname: mitmproxy-git
@@ -151,15 +173,6 @@
     - MIT
   categories:
     - net-proxy
-- repo: scoop
-  subrepo: extras
-  binname: mitmproxy
-  visiblename: mitmproxy
-  version: 12.3.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: manjaro_stable
   subrepo: extra
   srcname: mitmproxy
@@ -168,28 +181,6 @@
   version: 12.2.3
   origversion: 12.2.3-1
   status: outdated
-  summary: SSL-capable man-in-the-middle HTTP proxy
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: mitmproxy
-  binname: mitmproxy
-  visiblename: mitmproxy
-  version: 12.3.1
-  origversion: 12.3.1-1
-  status: newest
-  summary: SSL-capable man-in-the-middle HTTP proxy
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: mitmproxy
-  binname: mitmproxy
-  visiblename: mitmproxy
-  version: 12.3.1
-  origversion: 12.3.1-1
-  status: newest
   summary: SSL-capable man-in-the-middle HTTP proxy
   licenses:
     - MIT
@@ -231,7 +222,7 @@
   categories:
     - python313Packages
 - repo: nix_stable_26_05
-  srcname: python313Packages.mitmproxy
+  srcname: mitmproxy
   visiblename: mitmproxy
   version: 12.2.3
   origversion: null
@@ -241,8 +232,6 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - MIT
-  categories:
-    - python313Packages
 - repo: nix_stable_26_05
   srcname: python314Packages.mitmproxy
   visiblename: mitmproxy
@@ -257,7 +246,7 @@
   categories:
     - python314Packages
 - repo: nix_stable_26_05
-  srcname: mitmproxy
+  srcname: python313Packages.mitmproxy
   visiblename: mitmproxy
   version: 12.2.3
   origversion: null
@@ -267,8 +256,10 @@
     - sandro.jaeckel@gmail.com
   licenses:
     - MIT
+  categories:
+    - python313Packages
 - repo: nix_unstable
-  srcname: python313Packages.mitmproxy
+  srcname: mitmproxy
   visiblename: mitmproxy
   version: 12.3.0
   origversion: null
@@ -279,8 +270,6 @@
     - misaka13514@gmail.com
   licenses:
     - MIT
-  categories:
-    - python313Packages
 - repo: nix_unstable
   srcname: python314Packages.mitmproxy
   visiblename: mitmproxy
@@ -296,7 +285,7 @@
   categories:
     - python314Packages
 - repo: nix_unstable
-  srcname: mitmproxy
+  srcname: python313Packages.mitmproxy
   visiblename: mitmproxy
   version: 12.3.0
   origversion: null
@@ -307,6 +296,8 @@
     - misaka13514@gmail.com
   licenses:
     - MIT
+  categories:
+    - python313Packages
 - repo: openbsd
   srcname: security/mitmproxy
   binname: mitmproxy
@@ -365,6 +356,15 @@
   origversion: null
   status: newest
   summary: An interactive, SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2, and WebSockets.
+- repo: scoop
+  subrepo: extras
+  binname: mitmproxy
+  visiblename: mitmproxy
+  version: 12.3.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: t2
   srcname: mitmproxy
   visiblename: mitmproxy
@@ -394,7 +394,7 @@
     - mitmproxy
   visiblename: mitmproxy
   version: 8.1.1
-  origversion: 8.1.1-4
+  origversion: 8.1.1-5
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -402,6 +402,47 @@
   categories:
     - net
   vulnerable: true
+- repo: nix_stable_24_05
+  srcname: mitmproxy
+  visiblename: mitmproxy
+  version: 10.3.0
+  origversion: null
+  status: outdated
+  summary: Man-in-the-middle proxy
+  maintainers:
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: mitmproxy
+  binnames:
+    - mitmproxy
+  visiblename: mitmproxy
+  version: 0.9.2
+  origversion: 0.9.2-2
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - universe/net
+  vulnerable: true
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: mitmproxy
+  binnames:
+    - mitmproxy
+  visiblename: mitmproxy
+  version: 8.1.1
+  origversion: 8.1.1-4
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - andrewsh@debian.org
+  categories:
+    - universe/net
+  vulnerable: true
 - repo: alpine_3_21
   subrepo: community
   srcname: mitmproxy
@@ -485,6 +526,20 @@
     - michal@polanski.me
   licenses:
     - MIT
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: mitmproxy
+  binnames:
+    - mitmproxy
+  visiblename: mitmproxy
+  version: "0.15"
+  origversion: 0.15-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - universe/net
   vulnerable: true
 - repo: alpine_3_24
   subrepo: community
@@ -606,7 +661,7 @@
     - mitmproxy
   visiblename: mitmproxy
   version: 8.1.1
-  origversion: 8.1.1-4
+  origversion: 8.1.1-5
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -684,19 +739,6 @@
   maintainers:
     - team+python@tracker.debian.org
     - andrewsh@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: net/mitmproxy
-  binname: mitmproxy
-  visiblename: net/mitmproxy
-  version: 12.2.1
-  origversion: null
-  status: outdated
-  summary: Interactive TLS-capable intercepting HTTP proxy
-  maintainers:
-    - leot@netbsd.org
   categories:
     - net
   vulnerable: true
@@ -895,18 +937,6 @@
   categories:
     - python311Packages
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: mitmproxy
-  visiblename: mitmproxy
-  version: 10.3.0
-  origversion: null
-  status: outdated
-  summary: Man-in-the-middle proxy
-  maintainers:
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: nix_stable_24_11
   srcname: mitmproxy
   visiblename: mitmproxy
@@ -948,6 +978,18 @@
     - python312Packages
   vulnerable: true
 - repo: nix_stable_25_05
+  srcname: mitmproxy
+  visiblename: mitmproxy
+  version: 12.1.1
+  origversion: null
+  status: outdated
+  summary: Man-in-the-middle proxy
+  maintainers:
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: nix_stable_25_05
   srcname: python312Packages.mitmproxy
   visiblename: python3.12-mitmproxy
   version: 12.1.1
@@ -974,18 +1016,6 @@
     - MIT
   categories:
     - python313Packages
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: mitmproxy
-  visiblename: mitmproxy
-  version: 12.1.1
-  origversion: null
-  status: outdated
-  summary: Man-in-the-middle proxy
-  maintainers:
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - MIT
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
@@ -1056,6 +1086,19 @@
   maintainers:
     - team@parrotsec.org
     - palinuro@parrotsec.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pkgsrc_2026_2
+  srcname: net/mitmproxy
+  binname: mitmproxy
+  visiblename: net/mitmproxy
+  version: 12.2.1
+  origversion: null
+  status: outdated
+  summary: Interactive TLS-capable intercepting HTTP proxy
+  maintainers:
+    - leot@netbsd.org
   categories:
     - net
   vulnerable: true
@@ -1131,34 +1174,6 @@
     - andrewsh@debian.org
   categories:
     - net
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: mitmproxy
-  binnames:
-    - mitmproxy
-  visiblename: mitmproxy
-  version: 0.9.2
-  origversion: 0.9.2-2
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: mitmproxy
-  binnames:
-    - mitmproxy
-  visiblename: mitmproxy
-  version: "0.15"
-  origversion: 0.15-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - universe/net
   vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic/universe
@@ -1251,21 +1266,6 @@
   vulnerable: true
 - repo: ubuntu_26_04
   subrepo: resolute/universe
-  srcname: mitmproxy
-  binnames:
-    - mitmproxy
-  visiblename: mitmproxy
-  version: 8.1.1
-  origversion: 8.1.1-4
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - andrewsh@debian.org
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
   srcname: mitmproxy
   binnames:
     - mitmproxy
