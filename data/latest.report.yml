@@ -7,7 +7,7 @@ about:
   latestVersion: "v12.3.1"
   latestRelease: "v12.3.1"
   latestPrerelease: "v3.0.0rc2"
-  collectedAt: 2026-11-27T08:53:38Z
+  collectedAt: 2026-11-28T08:05:43Z
 timeline:
   created: 2010-02-16
   lastCommit: 2026-11-23
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-10-25
   lastPrerelease: 2018-01-07
 popularity:
-  star: 47228
-  watcher: 628
-  fork: 5022
+  star: 47240
+  watcher: 629
+  fork: 5025
   release: 83
   contributor: 572
-  pullRequest: 3799
+  pullRequest: 3800
   issue: 3714
 language:
   Python: 2825761
@@ -36,15 +36,15 @@ language:
 totalBytes: 3602083
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 26
-    openPR: 63
+    openPR: 61
     closedIssue: 0
     openIssue: 11
     commit: 34
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 2
     mergedPR: 59
     openPR: 88
@@ -52,7 +52,7 @@ recent:
     openIssue: 13
     commit: 100
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 2
     mergedPR: 68
     openPR: 103
@@ -60,39 +60,39 @@ recent:
     openIssue: 16
     commit: 112
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 2
-    mergedPR: 134
-    openPR: 140
-    closedIssue: 28
+    mergedPR: 125
+    openPR: 141
+    closedIssue: 26
     openIssue: 25
     commit: 202
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 4
     mergedPR: 212
-    openPR: 165
+    openPR: 166
     closedIssue: 56
-    openIssue: 49
+    openIssue: 48
     commit: 361
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 14
     mergedPR: 453
-    openPR: 177
+    openPR: 178
     closedIssue: 196
     openIssue: 108
     commit: 505
 total:
   release: 83
   mergedPR: 2919
-  openPR: 196
+  openPR: 197
   closedIssue: 3340
   openIssue: 374
   commit: 11302
 ---
 path: /home/runner/.x-repo/github.com/mitmproxy/mitmproxy
-collectedAt: 2026-11-27T08:53:46Z
+collectedAt: 2026-11-28T08:05:53Z
 loc:
   Python:
     code: 75467
